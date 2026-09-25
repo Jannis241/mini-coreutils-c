@@ -15,7 +15,7 @@ I wanted to know how tools like `grep` or `cat` work, so I tried to build simple
 | `elf` | reads and prints the header of an ELF file (Linux executables) | `elf <file>` |
 | `xor-cipher` | decrypts a file, opens it in Neovim and encrypts it again when you close Neovim | `xor-cipher <file> <key>` |
 | `compress_exe_into_c` | compresses an executable with `xz` and puts it into a C file that unpacks and runs it | `compress_exe_into_c <src> <dest>` |
-| `vector.h` | A very small macro to easily create vectors in C. Useful for keeping things simple but not very efficient. |
+| `vector.h` | A very small macro to easily create vectors in C. Useful for keeping things simple but not very efficient. | You have to copy the header file into your project to use it |
 
 ## Some details
 
